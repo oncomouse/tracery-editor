@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a port of Galaxy Kate's tracery-editor to React. It also adds local browser saving (via localStorage) and downloadable files (via saveAs and Blob).
 
 ## Available Scripts
 
