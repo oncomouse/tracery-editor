@@ -40,7 +40,7 @@ export default () => {
       <div id="content-col" className="col">
         <Errors />
         <div id="output" className="content-box">
-          <Visualization />
+          <Visualization vizMode={dispatchedActions.vizMode} />
           <div className="content-header">
             <div></div>
             <OutputControls />

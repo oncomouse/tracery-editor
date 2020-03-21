@@ -36,7 +36,7 @@ const ACTION_MAP = {
     },
     mode: always('authoring'),
   }),
-  [MODE]: (_state, {payload}) => assoc('mode', payload.mode),
-  [VIZ_MODE]: (_state, {payload}) => assoc('vizMode', payload.vizMode),
+  [MODE]: (state, {payload}) => assoc('mode', payload.mode, state),
+  [VIZ_MODE]: (state, {payload}) => assoc('vizMode', payload.vizMode, state),
 }
 export default makeReducer(ACTION_MAP, {defaultState: INITIAL_STATE})
